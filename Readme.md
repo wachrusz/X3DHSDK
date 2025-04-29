@@ -1,6 +1,6 @@
 # X3DHSDK
 
-A lightweight, modular implementation of the X3DH (Extended Triple Diffie-Hellman) key agreement protocol in Swift. Built with CryptoKit and sarcasm. Optimized for mobile use cases and forward secrecy.
+A lightweight, modular implementation of the X3DH (Extended Triple Diffie-Hellman) key agreement protocol in Swift. Built with CryptoKit. Optimized for mobile use cases and forward secrecy.
 
 ## 📦 Features
 
