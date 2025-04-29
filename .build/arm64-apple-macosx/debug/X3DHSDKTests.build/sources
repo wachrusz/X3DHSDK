@@ -1,0 +1,10 @@
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/AEADEncryptorTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/ForwardSecrecySessionCipherTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/SessionCipherTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Errors/X3DHErrorTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Handshake/HandshakeTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/KeysIntegrationTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PrivateKeyTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PublicKeyTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Messages/MessageEncryptorTests.swift
+/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Utils/ByteUtilsTests.swift

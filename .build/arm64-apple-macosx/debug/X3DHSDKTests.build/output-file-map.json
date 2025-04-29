@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/master.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/AEADEncryptorTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/ForwardSecrecySessionCipherTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/SessionCipherTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Errors/X3DHErrorTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Handshake/HandshakeTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/KeysIntegrationTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PrivateKeyTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PublicKeyTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Messages/MessageEncryptorTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Utils/ByteUtilsTests.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests.swiftdeps"
+  }
+}

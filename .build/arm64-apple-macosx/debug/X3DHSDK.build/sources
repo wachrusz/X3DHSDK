@@ -1,0 +1,11 @@
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/AEADEncryptor.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/ForwardSecrecySessionCipher.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/KeyDerivation.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/SessionCipher.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Errors/X3DHError.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Handshake/Handshake.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PrivateKey.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PublicKey.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/SigningKeyPair.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Messages/MessageEncryptor.swift
+/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Utils/ByteUtils.swift

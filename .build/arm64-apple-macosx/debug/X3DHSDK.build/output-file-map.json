@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/master.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/AEADEncryptor.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/ForwardSecrecySessionCipher.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/KeyDerivation.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/SessionCipher.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Errors/X3DHError.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Handshake/Handshake.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PrivateKey.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PublicKey.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/SigningKeyPair.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Messages/MessageEncryptor.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor.swiftdeps"
+  },
+  "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Utils/ByteUtils.swift": {
+    "dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils.d",
+    "object": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils.swift.o",
+    "swiftmodule": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils.swiftdeps"
+  }
+}

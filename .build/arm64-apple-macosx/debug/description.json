@@ -1,0 +1,976 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.xctest/Contents/MacOS/X3DHSDKPackageTests",
+      "packagePath" : "/Users/minka/iosdev/X3DHSDK",
+      "productName" : "X3DHSDKPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.X3DHSDK-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/sources",
+      "importPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/AEADEncryptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/ForwardSecrecySessionCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/KeyDerivation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/SessionCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Errors/X3DHError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Handshake/Handshake.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PrivateKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PublicKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/SigningKeyPair.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Messages/MessageEncryptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Utils/ByteUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "X3DHSDK",
+      "moduleOutputPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDK.swiftmodule",
+      "objects" : [
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHSDK-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "x3dhsdk"
+      ],
+      "outputFileMapPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDK.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/AEADEncryptor.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/ForwardSecrecySessionCipher.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/KeyDerivation.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/SessionCipher.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Errors/X3DHError.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Handshake/Handshake.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PrivateKey.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PublicKey.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/SigningKeyPair.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Messages/MessageEncryptor.swift",
+        "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Utils/ByteUtils.swift"
+      ],
+      "tempsPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.X3DHSDKPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/sources",
+      "importPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDKTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "X3DHSDKPackageTests",
+      "moduleOutputPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDKPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/X3DHSDKPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "x3dhsdk"
+      ],
+      "outputFileMapPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDKPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.X3DHSDKTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/sources",
+      "importPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/AEADEncryptorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/ForwardSecrecySessionCipherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/SessionCipherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Errors/X3DHErrorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Handshake/HandshakeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/KeysIntegrationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PrivateKeyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PublicKeyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Messages/MessageEncryptorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Utils/ByteUtilsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDK.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "X3DHSDKTests",
+      "moduleOutputPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDKTests.swiftmodule",
+      "objects" : [
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests.swift.o",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "x3dhsdk"
+      ],
+      "outputFileMapPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules/X3DHSDKTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/AEADEncryptorTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/ForwardSecrecySessionCipherTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/SessionCipherTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Errors/X3DHErrorTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Handshake/HandshakeTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/KeysIntegrationTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PrivateKeyTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PublicKeyTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Messages/MessageEncryptorTests.swift",
+        "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Utils/ByteUtilsTests.swift"
+      ],
+      "tempsPath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "X3DHSDK" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "X3DHSDK",
+      "-package-name",
+      "x3dhsdk",
+      "-incremental",
+      "-c",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/AEADEncryptor.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/ForwardSecrecySessionCipher.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/KeyDerivation.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/SessionCipher.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Errors/X3DHError.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Handshake/Handshake.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PrivateKey.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PublicKey.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/SigningKeyPair.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Messages/MessageEncryptor.swift",
+      "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Utils/ByteUtils.swift",
+      "-I",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx11.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHSDK-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "x3dhsdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "X3DHSDKPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "X3DHSDKPackageTests",
+      "-package-name",
+      "x3dhsdk",
+      "-incremental",
+      "-c",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx11.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/X3DHSDKPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "x3dhsdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "X3DHSDKTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "X3DHSDKTests",
+      "-package-name",
+      "x3dhsdk",
+      "-incremental",
+      "-c",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/AEADEncryptorTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/ForwardSecrecySessionCipherTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/SessionCipherTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Errors/X3DHErrorTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Handshake/HandshakeTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/KeysIntegrationTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PrivateKeyTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PublicKeyTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Messages/MessageEncryptorTests.swift",
+      "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Utils/ByteUtilsTests.swift",
+      "-I",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "x3dhsdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "X3DHSDK" : [
+
+    ],
+    "X3DHSDKPackageTests" : [
+      "X3DHSDKTests",
+      "X3DHSDK"
+    ],
+    "X3DHSDKTests" : [
+      "X3DHSDK"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/AEADEncryptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/ForwardSecrecySessionCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/KeyDerivation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Crypto/SessionCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Errors/X3DHError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Handshake/Handshake.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PrivateKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/PublicKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Keys/SigningKeyPair.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Messages/MessageEncryptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Sources/X3DHSDK/Utils/ByteUtils.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/sources"
+    },
+    "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/sources"
+    },
+    "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/AEADEncryptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ByteUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/ForwardSecrecySessionCipher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/Handshake.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/KeyDerivation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/MessageEncryptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PrivateKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/PublicKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SessionCipher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/SigningKeyPair.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDK.build/X3DHError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/AEADEncryptorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ByteUtilsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/ForwardSecrecySessionCipherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/HandshakeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/KeysIntegrationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/MessageEncryptorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PrivateKeyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/PublicKeyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/SessionCipherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/X3DHErrorTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/AEADEncryptorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/ForwardSecrecySessionCipherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Crypto/SessionCipherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Errors/X3DHErrorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Handshake/HandshakeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/KeysIntegrationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PrivateKeyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Keys/PublicKeyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Messages/MessageEncryptorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/minka/iosdev/X3DHSDK/Tests/X3DHSDKTests/Utils/ByteUtilsTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/X3DHSDKTests.build/sources"
+    },
+    "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/minka/iosdev/X3DHSDK/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
