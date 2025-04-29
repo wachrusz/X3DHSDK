@@ -95,10 +95,6 @@ Includes:
 - Session key derivation
 - Zero dependency on hope
 
-## 📚 Documentation
-
-If you want Docc-style docs, go generate them. Or wait until someone else does.
-
 ## ⚠️ Disclaimer
 
 This SDK is educational and not certified for military-grade crypto. Use at your own risk. Paranoia not included.
